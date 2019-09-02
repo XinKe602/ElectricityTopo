@@ -17,6 +17,7 @@ class DemoMain(QMainWindow, Ui_MainWindow):
         # self.tree1.itemClicked.connect(self.change_func)
         self.treeWidget.itemClicked.connect(self.change_func)
 
+
         # self.tableWidget.itemClicked.connect(self.table_func())
         # self.tableWidget.itemClicked().connect()
 
