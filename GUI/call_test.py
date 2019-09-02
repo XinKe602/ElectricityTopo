@@ -10,6 +10,7 @@ import sys
 #ceshi
 #cesgu2
 
+
 class DemoMain(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
