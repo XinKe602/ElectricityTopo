@@ -45,6 +45,36 @@ class DemoMain(QMainWindow, Ui_MainWindow):
         # self.tableWidget.item(row1 - 1, 0).setText("1")
         # self.tableWidget.verticalHeaderItem(row1).setText("节点属性")
         # self.tableWidget.removeRow(self.tableWidget.rowCount() - 1)
+        topFather = self.treeWidget.currentItem()
+        while topFather.parent() is not None:
+            topFather = topFather.parent()
+        # c=b.indexOfTopLevelItem(b)
+        # c=b.indexOfTopLevelItem(b)
+        index_father = self.treeWidget.indexOfTopLevelItem(topFather)
+        # print(index_father)
+        #
+        # print(topFather)
+        if index_father == 0:
+            pix = QPixmap(':/pic/楼1.jpg')
+            self.label_1.setPixmap(pix)
+            self.label_1.setScaledContents(True)
+
+        elif index_father == 1:
+            pix = QPixmap(':/pic/楼2.jpg')
+            self.label_1.setPixmap(pix)
+            self.label_1.setScaledContents(True)
+        elif index_father == 2:
+            pix = QPixmap(':/pic/楼3.jpg')
+            self.label_1.setPixmap(pix)
+            self.label_1.setScaledContents(True)
+        elif index_father == 3:
+            pix = QPixmap(':/pic/楼4.jpg')
+            self.label_1.setPixmap(pix)
+            self.label_1.setScaledContents(True)
+        else:
+            pix = QPixmap(':/pic/拓扑图.png')
+            self.label_1.setPixmap(pix)
+            self.label_1.setScaledContents(True)
 
         if item.child(0) is None:  # 没有子节点意味着这是最小的孩子，直接输出该节点的信息
             row1 = self.tableWidget.rowCount()
