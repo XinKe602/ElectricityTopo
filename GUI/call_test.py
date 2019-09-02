@@ -8,6 +8,7 @@ import sys
 
 # 测试
 #测试2
+#ceshi
 
 class DemoMain(QMainWindow, Ui_MainWindow):
     def __init__(self):
