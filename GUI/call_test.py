@@ -6,6 +6,7 @@ from test import Ui_MainWindow
 # from PyQt5.QtWidgets import QApplication, QWidget, QTreeWidget, QTreeWidgetItem, QLabel, QHBoxLayout, QMainWindow
 import sys
 
+# 测试
 
 class DemoMain(QMainWindow, Ui_MainWindow):
     def __init__(self):
