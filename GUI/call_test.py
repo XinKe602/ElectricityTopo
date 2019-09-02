@@ -7,6 +7,7 @@ from test import Ui_MainWindow
 import sys
 
 # 测试
+#测试2
 
 class DemoMain(QMainWindow, Ui_MainWindow):
     def __init__(self):
