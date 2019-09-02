@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>672</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>信息查询</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>201</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <column>
+     <property name="text">
+      <string>楼号</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+     <property name="icon">
+      <iconset theme="a">
+       <normaloff>C:/Users/lulinlin/.designer/backup</normaloff>C:/Users/lulinlin/.designer/backup</iconset>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>#1</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>A11</string>
+       </property>
+       <property name="flags">
+        <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A12</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A13</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A14</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>2单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>A21</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A22</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A23</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A24</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>3单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>A31</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A32</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A33</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>4单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>A41</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A42</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>A43</string>
+       </property>
+      </item>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>#2</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>B11</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B12</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B13</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B14</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B15</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B16</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B17</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B18</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>2单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>B21</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B22</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B23</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B24</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>3单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>B31</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B32</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B33</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B34</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>4单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>B41</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B42</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B43</string>
+       </property>
+      </item>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>#3</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>C11</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C12</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C13</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C14</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>2单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>C21</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C22</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C23</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C24</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>3单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>C31</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C32</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C33</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C34</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>4单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>C41</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C42</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C43</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C44</string>
+       </property>
+      </item>
+     </item>
+    </item>
+    <item>
+     <property name="text">
+      <string>#4</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>1单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>D11</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D12</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D13</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D14</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>2单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>D21</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D22</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D23</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D24</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>3单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>D31</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D32</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D33</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D34</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>4单元</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>D41</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D42</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D43</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D44</string>
+       </property>
+      </item>
+     </item>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Devanagari</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>信息</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>80</y>
+      <width>221</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string notr="true">信息</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="10" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+    <item row="11" column="0">
+     <property name="text">
+      <string>信息</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>150</y>
+      <width>221</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'楷体'; font-size:26pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;这里是门牌号信息&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>520</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>展开</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>520</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>初始化</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>treeWidget</receiver>
+   <slot>expandAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>46</x>
+     <y>532</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>84</x>
+     <y>497</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>treeWidget</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>143</x>
+     <y>524</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>143</x>
+     <y>499</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

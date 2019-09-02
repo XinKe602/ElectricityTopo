@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="pic">
+    <file>拓扑图.png</file>
+  </qresource>
+</RCC>
