@@ -22,7 +22,7 @@ class DemoMain(QMainWindow, Ui_MainWindow):
         self.label_1.setScaledContents(True)
         self.treeWidget.itemClicked.connect(self.change_func)
         self.pushButton.clicked.connect(self.treeWidget.expandAll)
-        self.pushButton_2.clicked.connect(self.table_func)
+        self.pushButton_2.clicked.connect(self.table_func)#初始化的功能
 
 
         # self.tableWidget.itemClicked.connect(self.table_func())
