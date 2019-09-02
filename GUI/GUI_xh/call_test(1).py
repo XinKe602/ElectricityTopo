@@ -1,3 +1,4 @@
+from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QApplication, QWidget, QTreeWidget, QTreeWidgetItem, QLabel, QHBoxLayout, QMainWindow, \
     QTableWidgetItem, QHeaderView
 from PyQt5.uic.properties import QtGui
@@ -5,6 +6,7 @@ from PyQt5 import QtCore
 from test import Ui_MainWindow
 # from PyQt5.QtWidgets import QApplication, QWidget, QTreeWidget, QTreeWidgetItem, QLabel, QHBoxLayout, QMainWindow
 import sys
+import pic
 
 
 class DemoMain(QMainWindow, Ui_MainWindow):
@@ -15,6 +17,9 @@ class DemoMain(QMainWindow, Ui_MainWindow):
         # self.label3 = QLabel('No Click')
         # self.tree = QTreeWidget(self)
         # self.tree1.itemClicked.connect(self.change_func)
+        pix = QPixmap(':/pic/拓扑图.png')
+        self.label_1.setPixmap(pix)
+        self.label_1.setScaledContents(True)
         self.treeWidget.itemClicked.connect(self.change_func)
 
 
