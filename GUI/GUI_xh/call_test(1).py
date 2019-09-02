@@ -21,6 +21,8 @@ class DemoMain(QMainWindow, Ui_MainWindow):
         self.label_1.setPixmap(pix)
         self.label_1.setScaledContents(True)
         self.treeWidget.itemClicked.connect(self.change_func)
+        self.pushButton.clicked.connect(self.treeWidget.expandAll)
+        self.pushButton_2.clicked.connect(self.table_func)
 
 
         # self.tableWidget.itemClicked.connect(self.table_func())
@@ -143,9 +145,12 @@ class DemoMain(QMainWindow, Ui_MainWindow):
 
         self.tableWidget.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeToContents)  # 根据字体内容调整表格宽度
 
-    def table_func(self, item, row, column):  # 暂时没用
-        a = 1
-        print(a)
+    def table_func(self):  # 暂时没用
+        self.treeWidget.reset
+        pix = QPixmap(':/pic/拓扑图.png')
+        self.label_1.setPixmap(pix)
+        self.label_1.setScaledContents(True)
+
 
 
 if __name__ == '__main__':
