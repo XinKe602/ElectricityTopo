@@ -27,7 +27,7 @@ class DemoMain(QMainWindow, Ui_MainWindow):
 
         # self.tableWidget.itemClicked.connect(self.table_func())
         # self.tableWidget.itemClicked().connect()
-
+        #更改元件
     def change_func(self, item, column):
 
         # self.textBrowser.setText(item.text(column))
