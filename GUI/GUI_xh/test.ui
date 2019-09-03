@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1406</width>
-    <height>934</height>
+    <width>971</width>
+    <height>597</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,10 +20,10 @@
    <widget class="QTreeWidget" name="treeWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>80</y>
-      <width>221</width>
-      <height>381</height>
+      <x>0</x>
+      <y>40</y>
+      <width>241</width>
+      <height>491</height>
      </rect>
     </property>
     <property name="font">
@@ -50,7 +50,7 @@
      </property>
      <item>
       <property name="text">
-       <string>1单元</string>
+       <string>楼层1</string>
       </property>
       <item>
        <property name="text">
@@ -78,7 +78,7 @@
      </item>
      <item>
       <property name="text">
-       <string>2单元</string>
+       <string>楼层2</string>
       </property>
       <item>
        <property name="text">
@@ -103,7 +103,7 @@
      </item>
      <item>
       <property name="text">
-       <string>3单元</string>
+       <string>楼层3</string>
       </property>
       <item>
        <property name="text">
@@ -123,7 +123,7 @@
      </item>
      <item>
       <property name="text">
-       <string>4单元</string>
+       <string>楼层4</string>
       </property>
       <item>
        <property name="text">
@@ -148,7 +148,7 @@
      </property>
      <item>
       <property name="text">
-       <string>1单元</string>
+       <string>楼层1</string>
       </property>
       <item>
        <property name="text">
@@ -193,7 +193,7 @@
      </item>
      <item>
       <property name="text">
-       <string>2单元</string>
+       <string>楼层2</string>
       </property>
       <item>
        <property name="text">
@@ -218,7 +218,7 @@
      </item>
      <item>
       <property name="text">
-       <string>3单元</string>
+       <string>楼层3</string>
       </property>
       <item>
        <property name="text">
@@ -243,7 +243,7 @@
      </item>
      <item>
       <property name="text">
-       <string>4单元</string>
+       <string>楼层4</string>
       </property>
       <item>
        <property name="text">
@@ -268,7 +268,7 @@
      </property>
      <item>
       <property name="text">
-       <string>1单元</string>
+       <string>楼层1</string>
       </property>
       <item>
        <property name="text">
@@ -293,7 +293,7 @@
      </item>
      <item>
       <property name="text">
-       <string>2单元</string>
+       <string>楼层2</string>
       </property>
       <item>
        <property name="text">
@@ -318,7 +318,7 @@
      </item>
      <item>
       <property name="text">
-       <string>3单元</string>
+       <string>楼层3</string>
       </property>
       <item>
        <property name="text">
@@ -343,7 +343,7 @@
      </item>
      <item>
       <property name="text">
-       <string>4单元</string>
+       <string>楼层4</string>
       </property>
       <item>
        <property name="text">
@@ -373,7 +373,7 @@
      </property>
      <item>
       <property name="text">
-       <string>1单元</string>
+       <string>楼层1</string>
       </property>
       <item>
        <property name="text">
@@ -398,7 +398,7 @@
      </item>
      <item>
       <property name="text">
-       <string>2单元</string>
+       <string>楼层2</string>
       </property>
       <item>
        <property name="text">
@@ -423,7 +423,7 @@
      </item>
      <item>
       <property name="text">
-       <string>3单元</string>
+       <string>楼层3</string>
       </property>
       <item>
        <property name="text">
@@ -448,7 +448,7 @@
      </item>
      <item>
       <property name="text">
-       <string>4单元</string>
+       <string>楼层4</string>
       </property>
       <item>
        <property name="text">
@@ -473,32 +473,13 @@
      </item>
     </item>
    </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>30</y>
-      <width>101</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Adobe Devanagari</family>
-      <pointsize>26</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>信息</string>
-    </property>
-   </widget>
    <widget class="QTableWidget" name="tableWidget">
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>80</y>
-      <width>201</width>
-      <height>391</height>
+      <y>40</y>
+      <width>281</width>
+      <height>531</height>
      </rect>
     </property>
     <row>
@@ -627,34 +608,11 @@
      </property>
     </item>
    </widget>
-   <widget class="QTextBrowser" name="textBrowser">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>550</y>
-      <width>441</width>
-      <height>301</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>楷体</family>
-      <pointsize>26</pointsize>
-     </font>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'楷体'; font-size:26pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:48pt;&quot;&gt;这里是门牌号信息&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>480</y>
+      <x>20</x>
+      <y>550</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -666,8 +624,8 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>480</y>
+      <x>140</x>
+      <y>550</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -679,10 +637,10 @@ p, li { white-space: pre-wrap; }
    <widget class="QLabel" name="label_1">
     <property name="geometry">
      <rect>
-      <x>500</x>
-      <y>210</y>
-      <width>861</width>
-      <height>471</height>
+      <x>570</x>
+      <y>40</y>
+      <width>361</width>
+      <height>531</height>
      </rect>
     </property>
     <property name="text">

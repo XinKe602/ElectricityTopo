@@ -1,5 +1,12 @@
 <RCC>
   <qresource prefix="pic">
+    <file>层1.png</file>
+    <file>层2.png</file>
+    <file>层3.png</file>
+    <file>层4.png</file>
+    <file>层.png</file>
+    <file>户.png</file>
+    <file>楼.png</file>
     <file>拓扑图.png</file>
     <file>楼1.jpg</file>
     <file>楼2.jpg</file>
